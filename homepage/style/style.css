@@ -1,0 +1,78 @@
+body {
+  background-color: #fee;
+  overflow-x: clip;
+}
+
+
+
+.message img {
+  opacity: 0;
+
+  height: 40vw;
+  width: 40vw;
+}
+
+.message label {
+  color: #0000;
+  /*font-family: ;*/
+
+  font-size: 5vw;
+  line-height: 0.5vw;
+  transform: translate(0, 50%);
+  transform: rotate(30deg);
+}
+
+
+
+#apps {
+  background-color: #faa;
+
+  height: 40vw;
+  width: 100%;
+
+  transform: translate(-50%, 0%);
+  position: absolute;
+  top: 250%;
+  left: 50%;
+  text-align: center;
+}
+
+#apps .appIcon img {
+  height: 10vw;
+
+  margin: 1%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+
+
+#footer {
+  background-color: #a77;
+
+  height: 5vw;
+  width: 100%;
+  padding: 0.5%;
+  line-height: 2vw;
+
+  position: absolute;
+  top: calc(250% + 40vw);
+  left: 0;
+  text-align: center;
+}
+
+#footer div[name="sns"] {
+  transform: translate(-50%, 0);
+  margin-left: 50%;
+  text-align: center;
+}
+
+#footer div[name="sns"] img {
+  height: 1.5vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+#footer span[name="copyright"] {
+  color: #fff;
+}
