@@ -1,15 +1,14 @@
 body {
   background-color: #fee;
   overflow-x: clip;
+
+  line-height: 1vw;
 }
 
 
 
 .message img {
   opacity: 0;
-
-  height: 40vw;
-  width: 40vw;
 }
 
 .message label {
@@ -75,4 +74,6 @@ body {
 
 #footer span[name="copyright"] {
   color: #fff;
+
+  font-size: 1vw;
 }
