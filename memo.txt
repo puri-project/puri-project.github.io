@@ -29,7 +29,7 @@ githubのrawはテキスト形式の場合のmimeタイプはtxtでしたぁぁ
 2025/03/17 22:37
 言い忘れてましたぁー
 リポジトリの進捗について
-・package:やり忘れ(wikiとか?)があるかも
+・package:やり忘れ(wikiとか?)があるかも→大丈夫だった。README.md作っておいて
 ・application:終わった
 ・library:まだ作ってもない
 ・github.io:移行が終わってない
