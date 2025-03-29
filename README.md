@@ -7,5 +7,5 @@
 - GitHub : Puri project ([puri-project](https://github.com/puri-project))
 
 ## クレジット
-- フォント : [Kiwi Maru](https://fonts.google.com)
+- フォント : [Kiwi Maru](https://fonts.google.com/specimen/Kiwi+Maru)
 - アイコン : [繊細なハート](https://sui-sai.jp/illust/2014/09/post-55.html)

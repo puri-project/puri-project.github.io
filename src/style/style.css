@@ -1,24 +1,26 @@
 body {
   background-color: #fee;
+  font-family: sans-serif;
   overflow-x: clip;
 
   line-height: 1vw;
 }
 
 
+.message {
+  img {
+    opacity: 0;
+  }
 
-.message img {
-  opacity: 0;
-}
+  label {
+    color: #0000;
+    font-family: "Kiwi Maru";
 
-.message label {
-  color: #0000;
-  /*font-family: ;*/
-
-  font-size: 5vw;
-  line-height: 0.5vw;
-  transform: translate(0, 50%);
-  transform: rotate(30deg);
+    font-size: 5vw;
+    line-height: 0.5vw;
+    transform: translate(0, 50%);
+    transform: rotate(30deg);
+  }
 }
 
 
@@ -34,14 +36,14 @@ body {
   top: 250%;
   left: 50%;
   text-align: center;
-}
 
-#apps .appIcon img {
-  height: 10vw;
+  .appIcon img {
+    height: 10vw;
 
-  margin: 1%;
-  margin-top: 4%;
-  margin-bottom: 4%;
+    margin: 1%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
 }
 
 
@@ -58,22 +60,22 @@ body {
   top: calc(250% + 40vw);
   left: 0;
   text-align: center;
-}
 
-#footer div[name="sns"] {
-  transform: translate(-50%, 0);
-  margin-left: 50%;
-  text-align: center;
-}
+  div[name="sns"] {
+    transform: translate(-50%, 0);
+    margin-left: 50%;
+    text-align: center;
+  }
 
-#footer div[name="sns"] img {
-  height: 1.5vw;
-  margin-left: 1vw;
-  margin-right: 1vw;
-}
+  div[name="sns"] img {
+    height: 1.5vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+  }
 
-#footer span[name="copyright"] {
-  color: #fff;
+  span[name="copyright"] {
+    color: #fff;
 
-  font-size: 1vw;
+    font-size: 1vw;
+  }
 }
